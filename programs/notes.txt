@@ -1,0 +1,154 @@
+
+C datatypes 
+-------------
+int a = 10 ;
+float b = 344.43;
+char c = 'a';
+double 
+long
+short
+
+python - objects 
+----------------
+
+**** Everything in python is object ****
+**** Every object contains methods ****
+
+number 
+string 
+list
+tuple
+dictionary
+set
+
+
+object = value
+
+
+number
+-------
+number can be integer or decimal or octal or hexa.
+
+aval = 10
+bval = 45.43
+AVAL  = 34.43
+
+
+string 
+-------
+string is defined in single or double or triple quotes.
+
+name = 'z'
+aname = 'python programming'
+bname = "java programming"
+cname = """oralce"""
+
+
+
+
+list ( array in C)
+------
+list is collection of elements.
+Elements can be numbers or strings or any combination.
+list is defined in []
+*indexing is allowed**
+
+alist =[10,20,30,40]
+blist = ["java","oracle"]
+clist = [30,45.43,"oracle",[10,20]]
+dlist =[[10,20],[30,40]]
+
+
+
+tuple ( immutable , unchangeable , uneditable)
+-----
+tuple contains collection of items.
+Elements can be numbers or strings or any combination.
+tuple is defined in ().
+** Elements inside tuple cant be modified directly ***
+
+atup = (10,20,30)
+btup = ("java","oracle")
+
+
+txt  csv  json  yaml  xlsx
+
+
+dictionary  ( json   hashmap   hash   items  pairs   associativearray)
+------------
+dictionary contains key-values
+dictionary is defined in {}.
+*** In dictionary .. keys are unique ***
+keys are UNIQUE
+Key can be integer or string to identify the value .
+value can be number or string or list or tuple or dictionary or any data structure
+**** Indexing is NOT possible in dictionary ****
+
+syntax:   object = { key:value , key:value}
+example:   book  = {"chap1": 10 ,"chap2":20 ,"chap3":30 ,"chap4":40}
+           data  = {1:2,3:4,5:6}
+            book  = {"chap1": [10,20,30] ,"chap2":[40,50,60]}
+
+Index 
+---------
+chap1   10
+chap2   20
+chap3   30
+chap4   40
+chap5   50
+
+
+
+set  ( venn diagarms)
+-----
+set is UNORDERED collection  of UNIQUE elements of same type.
+
+
+aset = {10,10,20,20,30,30}
+
+
+commenting in python 
+-----------------------
+
+# this is single line comment 
+
+
+"""
+this is
+mutliline 
+comment
+"""
+
+'''
+this is also
+a mutliline 
+comment 
+'''
+
+
+
+conditions 
+------------
+
+
+level1 
+level1
+level1
+level1 
+if con:
+    level2 
+    level2
+    level2
+level1
+level1
+level1
+
+
+
+# C style
+------
+
+for ( i = 1; i<10;i++)
+{
+
+}
