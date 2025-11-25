@@ -1,8 +1,7 @@
 
+
 print("python programming")
+print("unix")
+print(1,2,3)
+print(1,2,3,sep="       ")
 
-
-
-
-aset = {10,10,20,20,30,30}
-print(aset)

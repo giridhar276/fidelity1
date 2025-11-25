@@ -152,3 +152,323 @@ for ( i = 1; i<10;i++)
 {
 
 }
+
+conditions 
+---------
+if 
+if-else 
+if-elif-elif-elif-elif-elif-else
+
+
+function | definition | block | submodule | subroutine
+
+
+There are 2 types of functions 
+
+1. builtin functions 
+2. user defined functions 
+
+builtin functions 
+------------------
+
+How to check all the built-in functions 
+
+print(dir(__builtins__))    # will display all builtin functions and exceptions
+
+
+
+
+few builtin functions 
+--------------------------
+print()
+len()
+range()
+input()
+sum()
+type()
+isinstance()
+max(list)
+min(list)
+dir()
+help()
+str()
+int()
+float()
+list()
+tuple()
+dict()
+set()
+
+
+
+
+file handling 
+-----------------
+csv
+txt 
+xlsx 
+xlm 
+pdf 
+docx
+json 
+tar
+tar.gz
+zip 
+rar
+7z
+jpg 
+parqueet
+mpg
+sql
+dat 
+log 
+mp3 
+mp4 
+xlsb 
+jpg
+git
+
+
+flat files ( txt  csv  log  dat   json  xml   ymal  sql)
+
+
+third party files ( mp4  pdf docx  zip  rar 7z   xlsx  jpg )
+
+
+
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+#include<string.h>
+#include<stdmanip.h>
+#include<graphics.h>
+
+
+file handling 
+----------------
+read ( r )
+write ( w )
+append ( a )
+
+
+opening the file  
+----------------
+
+syntax:  object = open(filename, mode )
+example:   fobj = open("customers.txt","r")
+           case1: file should exist to read the file 
+
+           fobj = open("customers.txt","w")
+           case1: if the file is not existing .. file gets created first
+           case2: if the file is already existing.. it overwrites the existing content
+
+           fobj = open("customers.txt","a")
+           case1: if the file is not existing .. file gets created first
+           case2: if the file is already existing.. it appends the new content
+
+
+
+closing the file 
+---------------
+fobj.close()
+
+
+reading the file 
+---------------
+1. reading the file line by line 
+2. fobj.readlines()
+3. fobj.read() 
+4. using csv library 
+5. using pandas library
+
+
+writing to the file 
+-------------------
+1. fobj.writeslines()
+2. fobj.write()
+3. using csv library
+4. using pandas library
+
+exception handling 
+--------------------
+try 
+except 
+else
+finally 
+raise
+
+
+
+
+function | definition | block | subroutine | submodule 
+---------------------------------------------
+reusability purpose 
+define the block once and call it for multiple times
+
+
+
+ways of passing arguments 
+---------------
+
+fixed arguments 
+
+
+default arguments 
+
+
+keyword arguments 
+
+
+variable length arguments 
+
+
+
+####################
+read the file , validate data and insert records to database
+#####################
+
+1st approach :  just write top-down without  defs
+
+
+2nd approach :  make it modular 
+
+
+
+def read_file():
+    ####
+
+def validate():
+    ####
+def db_connection():
+     ####
+def insert_records():
+     ####
+def close_connection():
+      ####
+
+
+
+operators :
+----------
+
+arithmetic operators :  + -   *     %   /
+
+logical operators  :   and     or    not   
+
+name = "python"
+if len(name) == 6    and name.islower():
+     #####
+
+
+relational operators :     <   <=     >    >=   ==    !=
+
+
+assignment operators :   
+
+val = 10
+val= val + 1         (or)  val+=1   
+val = val - 1        (or)  val-=1
+
+
+special operators :
++
+**
+in 
+as 
+
+
+
+
+
+task/requirement  =    core python     +   libraries     +   domain expertise
+                     (procedural/oop)
+
+
+
+Library | module | package
+---------------------------
+- set of predefined functions packged together
+
+There are 2 types of libraries :
+
+1. builtin libraries  :  python is installed with set of builtin libraries which are generally used.
+----------------------
+
+2. third party libraries  : Depending on the requirement developer has to install the third party library 
+                            from www.pypi.org using pip tool
+                            (cloud modules, networking , testing , analytics , ML ,processing )
+
+
+
+
+
+
+
+################################### frequently used builtin libraries #############################
+
+os         : os level activities
+math       : mathematical operations
+sys        :  sys and python config data
+shutil     : copy,move, rmtree  etc
+urllib     : read the web, downloading the files
+logging    : logging all the events
+smtplib    : sending the mails
+ftplib     : performing ftp operations
+sysconfig  :  sys and python config data
+zipfile    : create/extract the zip files
+rarfile    : create/extract the rar files
+cryptopgraphy : encrypting and decrypting the data or files
+tarfile    : create/extract the tar files
+filecmp    : comparing files or directories
+sqlite3    : python default database
+csv        : reading/writing csv files
+xml        : reading/writing xml files
+calendar   : display month,year calendar info
+datetime   : working with date n time
+time       : working with date n time
+fractions  : working with decimal values
+glob       : display all the files
+heapq      : more of array operations ( getting largest among list )
+subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+pdb        : python debugger
+platform   : platform information
+random     : random operations ( shuffling , random digit ... )
+re         : grep + awk + sed
+socket     : networking programming
+stat       : stats of the file
+statistics : basic statistics
+pathlib	   : Object-oriented file path operations
+time	     : Delays, timestamps, performance checks
+logging	   : Logging for scripts/apps (replace print for real apps)
+argparse	 : Command-line interface (CLI) argument parsing
+configparser : 	Read/write .ini config files
+json	     :Serialize/deserialize JSON (common in APIs)
+uuid	     : Generate unique IDs (useful in files, databases)
+statistics	:Basic stats: mean, median, stdev
+random	    :Random number generation, sampling
+collections	:Specialized containers (defaultdict, Counter, namedtuple)
+traceback	   :Print/format exception tracebacks
+warnings	   :Raise and handle warnings
+
+
+
+
+
+
+
+display all the files :
+os.listdir()
+
+
+delete a file :
+os.remove(file)
+
+
+
+memory/cpu/disk statistics of my system :
+psutil 
+
+
+copy a file from one folder to another folder :
+shutil ( shell utilities )
+

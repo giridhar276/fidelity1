@@ -78,7 +78,9 @@ print(name.find("abc"))   # if not found.... returns -1
 
 # method2
 if 'prog' in name :
+
     print("substring found")
+    
 else:
     print("not found")
 
