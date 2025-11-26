@@ -1,0 +1,1280 @@
+
+
+
+github link: https://github.com/giridhar276/fidelity1
+
+
+url:
+https://cloud.cdp.rpsconsulting.in/console/#/
+
+password: 
+rps@12345
+
+username
+
+25PRE3388_U01 - Prejesh Kambikath
+25PRE3388_U02 - Sahana P S
+25PRE3388_U03 - Kishor Kumar
+25PRE3388_U04 - 	Naveen Suresh
+25PRE3388_U05 - Chriswin
+25PRE3388_U06  -- Kathirvel C
+25PRE3388_U07 - Lintosha John
+25PRE3388_U08 - Chandra Prakash R 
+25PRE3388_U09 - Abhimanyu
+25PRE3388_U10 -- Dharun
+25PRE3388_U11--Janardhana V K
+25PRE3388_U12 - Chinni
+25PRE3388_U13 - Zebulen,Maria
+25PRE3388_U14 -Jeyaganesh
+25PRE3388_U15- Krishna Tummala
+25PRE3388_U16 -Sunil Kumar
+25PRE3388_U17- Sasikala
+25PRE3388_U18- - Sathya
+25PRE3388_U19 -- Dhanush A
+25PRE3388_U20 -- Jegan Sundar Raj
+25PRE3388_U21 - Vignesh B
+25PRE3388_U22 - Anagha V
+25PRE3388_U23 -- Vinay Banigol
+25PRE3388_U24 -- Gunashekaran G R
+25PRE3388_U25 - Nandan Shenoy H
+25PRE3388_U2
+
+
+
+
+
+
+
+
+C datatypes 
+-------------
+int a = 10 ;
+float b = 344.43;
+char c = 'a';
+double 
+long
+short
+
+python - objects 
+----------------
+number 
+string 
+list
+tuple
+dictionary
+set
+
+
+object = value
+
+
+number
+-------
+number can be integer or decimal or octal or hexa.
+
+aval = 10
+bval = 45.43
+AVAL  = 34.43
+
+
+string 
+-------
+string is defined in single or double or triple quotes.
+
+name = 'z'
+aname = 'python programming'
+bname = "java programming"
+cname = """oralce"""
+
+
+
+
+list ( array in C)
+------
+list is collection of elements.
+Elements can be numbers or strings or any combination.
+list is defined in []
+*indexing is allowed**
+
+alist =[10,20,30,40]
+blist = ["java","oracle"]
+clist = [30,45.43,"oracle",[10,20]]
+dlist =[[10,20],[30,40]]
+
+
+
+tuple ( immutable , unchangeable , uneditable)
+-----
+tuple contains collection of items.
+Elements can be numbers or strings or any combination.
+tuple is defined in ().
+** Elements inside tuple cant be modified directly ***
+
+atup = (10,20,30)
+btup = ("java","oracle")
+
+
+txt  csv  json  yaml  xlsx
+
+
+dictionary  ( json   hashmap   hash   items  pairs   associativearray)
+------------
+dictionary contains key-values
+dictionary is defined in {}.
+*** In dictionary .. keys are unique ***
+keys are UNIQUE
+Key can be integer or string to identify the value .
+value can be number or string or list or tuple or dictionary or any data structure
+**** Indexing is NOT possible in dictionary ****
+
+syntax:   object = { key:value , key:value}
+example:   book  = {"chap1": 10 ,"chap2":20 ,"chap3":30 ,"chap4":40}
+           data  = {1:2,3:4,5:6}
+            book  = {"chap1": [10,20,30] ,"chap2":[40,50,60]}
+
+Index 
+---------
+chap1   10
+chap2   20
+chap3   30
+chap4   40
+chap5   50
+
+
+
+set  ( venn diagarms)
+-----
+set is UNORDERED collection  of UNIQUE elements of same type.
+
+
+aset = {10,10,20,20,30,30}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#p   y    t   h     o     n        p   r   o    g    r   a   m   m   i     n     g
+#0   1    2   3     4     5   6    7   8   9    10  11  12   13  14  15    16   17
+#                                                                    -3    -2    -1      
+name = "python programming"
+# string slicing
+# string[start:stop:step]
+print(name[0])  #p
+print(name[1])  #y
+print(name[0:4]) 
+print(name[0:4:1])
+print(name[0:18])   # python programming
+print(name[0:18:1]) # python programming
+print(name[0:18:2]) # pto rgamn
+print(name[-1])  #g
+print(name[-2])  #n
+
+print(len(name))  # display length of the string
+print(name)
+print(name[:])
+print(name[::])
+print(name[::1])
+print(name[::-1])  #gnimmargorp nohtyp
+
+print(name[0:-2])
+# string methods
+
+
+
+name = "python programming"
+print(name.capitalize()) 
+print(name.title())
+print(name.count("p"))
+print(name.count("P"))
+print(name.center(40))
+print(name.center(40,"*"))
+print(name.endswith("g"))
+print(name.endswith("a"))
+print(name.startswith("p"))
+print(name.replace("python","java"))
+print(name)   # we are not modifying actual string
+
+print(name.isupper())   # we are validating
+print(name.upper())     # displaying string in uppercase
+print(name)
+print(name.islower())
+print(name.lower())
+
+alist = ["python","java"]
+output = ":".join(alist)   # converting list to string
+print(output)
+
+name = " python   "
+print(len(name))
+print(len(name.strip()))  # remove whitespaces at both ends
+print(len(name.lstrip())) # only at left side
+print(len(name.rstrip())) # only at right side
+
+aname = "python:programming"
+print(aname.split(":"))
+
+#### concatenation  #### combining
+first = "python"
+second = "programming"
+print(first + second)
+print(first + second + "langauge")
+print(first + " " +  second + " " +  "langauge")
+
+
+
+
+# check for substring
+# method1
+name = "python programming"
+
+print(name.find("pr"))  # if substring found... if returns the index of substring
+
+print(name.find("abc"))   # if not found.... returns -1
+
+
+# method2
+if 'prog' in name :
+    print("substring found")
+else:
+    print("not found")
+
+
+if 1 < 2 :
+    print("true")
+    print("inside if")
+    print("still inside if")
+else:
+    print("false")
+
+
+
+
+#####################
+# list methods
+####################
+
+
+alist = [34,67,16,81,83,36,68,34,34]
+print(len(alist))
+print(alist.count(34))
+alist.append(74)   # alist.append(value)
+print("After appending:",alist)
+alist.extend([85,53,59])
+print("After extending:",alist)
+alist.insert(1,95)
+print("After inserting :",alist)
+alist.pop(1)   # alist.pop(index) - value at the index is removed
+print("After pop operation :",alist)
+alist.remove(34) # list.remove(value) - value gets removed directly
+print("AFter removing :",alist)
+alist.reverse()
+print("After reversing :",alist)
+alist.sort()
+print("sorting in ascending order:",alist)
+alist.sort(reverse=True)
+print("sorting in descending order:",alist)
+
+#### always validate
+if 340 in alist:
+    alist.remove(340)
+    print("value removed")
+    
+else:
+    print("value not found")
+
+
+
+
+
+
+
+alist = [34,67,16,81,83,36,68,34,34]
+### display all the numbers from 1 to 10
+# range(start,stop,step)
+for i in range(1,11): # excluding 11
+    print(i)
+# display odd numbers
+for i in range(1,11,2):
+    print(i)
+## display even numbers
+for i in range(2,11,2):
+    print(i)
+
+## reading each element in list
+for value in alist:
+    print(value)
+# reading each character from the string
+name = "python"
+for char in name:
+    print(char)
+
+
+
+##### difference between list n tuple
+
+#list
+alist = [10,20,30]
+alist[0] = 100
+print("after changes :", alist)
+
+
+# tuple
+atup = (10,20,30)
+#atup[0] = 1000
+print("After changes :",atup)
+
+
+# typecasting- converting from one object to another object
+atup = (10,20,30)
+alist = list(atup) # step1: converting to list
+alist.append(40)   # step2: making changes
+atup = tuple(alist)# step3: reconverting back to tuple
+print("After changes :",atup)
+
+
+
+
+
+
+############################ dictionary #########################
+
+
+book = {"chap1":10 , "chap2":20,"chap3":30, "chap1":100}
+print(book)
+
+### add new key-value pairs
+book["chap4"] = 40
+book["chap5"] = 50
+book["chap6"] = 40
+print(book)
+
+# display individual value
+print(book["chap1"])
+print(book["chap2"])
+print(book["chap3"])
+
+####################
+# display keys
+print(book.keys())
+
+
+for key in book.keys():
+    print(key)
+
+######################
+# display values
+print(book.values())
+
+
+for value in book.values():
+    print(value)
+
+# display key value pair
+print(book.items())
+
+for key,value in book.items():
+    print(key,value)
+
+
+
+
+"colors": "magenta",
+"values": "#f0f"
+
+################################# dictionary tasks #######################
+
+
+
+colors = [
+{
+"colors": "red",
+"values": "#f00"
+},
+{
+"colors": "green",
+"values": "#0f0"
+},
+{
+"colors": "blue",
+"values": "#00f"
+},
+{
+"colors": "cyan",
+"values": "#0ff"
+},
+{
+"colors": "magenta",
+"values": "#f0f"
+},
+{
+"colors": "yellow",
+"values": "#ff0"
+},
+{
+"colors": "black",
+"values": "#000"
+}
+]
+
+write a program to display all the colors and its values.
+
+sample output :
+
+red #f00
+green #0f0
+yellow  #ff0
+magenta #f0f
+..
+..
+..
+
+
+
+
+for item in colors:
+    print(item['colors'] , item['values'])
+
+
+#############################################################################
+
+Write a program to display all employee names and their departments.
+
+employees = {
+    "E001": {"name": "Alice", "department": "Finance"},
+    "E002": {"name": "Bob", "department": "IT"},
+    "E003": {"name": "Charlie", "department": "HR"}
+}
+
+
+sample output:
+
+Alice  Finance
+Bob    IT
+
+
+
+
+
+
+for value in employees.values():
+    print(value['name'] , value['department'])
+
+
+
+for key,value in employees.items():
+    print(value['name'],value['department'])
+
+#############################################################################
+
+Write a program to print all product names and prices.
+
+products = [
+    {"id": 101, "name": "Laptop", "price": 75000},
+    {"id": 102, "name": "Mobile", "price": 25000},
+    {"id": 103, "name": "Tablet", "price": 15000}
+]
+
+
+sample output:
+-----
+Laptop  75000
+Mobile  25000
+
+
+
+
+for product in products:
+    print(product['name'], product['price'])
+################################################################
+
+Write a program to show student names with grades.
+
+students = [
+    {"id": 1, "name": "John", "marks": {"math": 80, "science": 75}},
+    {"id": 2, "name": "Jane", "marks": {"math": 90, "science": 85}}
+]
+
+
+sample output:
+Josh 80,75
+Jane 90,85
+
+
+
+
+for student in students:
+    print(student['name'] , student['marks']['math'] , "," ,  student['marks']['science' ])
+
+
+for student in students:
+    print(student['name'] , list(student['marks'].values()))
+    
+    
+    
+################################################################
+
+Write a program to print team names and player names.
+
+teams = {
+    "TeamA": [
+        {"name": "Alice", "role": "Batsman"},
+        {"name": "Bob", "role": "Bowler"}
+    ],
+    "TeamB": [
+        {"name": "Charlie", "role": "Allrounder"},
+        {"name": "Dave", "role": "Wicketkeeper"}
+    ]
+}
+
+
+sample output:
+
+TeamAa
+-----
+Alice
+Bob
+
+TeamB
+-----
+Charlie
+Dave
+
+
+
+
+for key,value in teams.items():
+    print(key)
+    print("------")
+    for player in value:
+        print(player['name'])
+    print()
+
+################################################################
+
+
+
+write a program to read the below dictionary and display the expected output
+
+info = {
+"id": "0001",
+"type": "donut",
+"name": "Cake",
+"image":
+{
+"url": "images/0001.jpg",
+"width": 200,
+"height": 200
+},
+"thumbnail":
+{
+"url": "images/thumbnails/0001.jpg",
+"width": 32,
+"height": 32
+}
+}
+
+
+sample output:
+
+ID              : 0001
+TYPE            : donut
+NAME            : Cake
+IMAGE URL       :"images/0001.jpg
+IMAGE WIDTH     : 200
+IMAGE HEIGHT    : 200
+THUMBNAIL URL   : "images/thumbnails/0001.jpg"
+THUMBNAIL WIDTH : 32
+THUMBNAIL HEIGHT:  32
+
+
+
+val = 10 
+print(isinstance(val,int))
+print(isinstance(val,list))
+print(isinstance(val,dict))
+alist = [10,20,30]
+print(isinstance(alist,list))
+print(isinstance(alist,int))
+print(type(alist))
+print(type(val))
+
+
+for key,value in info.items():
+    if isinstance(value,str):
+        print(key.ljust(15),":",value)
+    elif isinstance(value,dict):
+        for skey,svalue in value.items():
+            finalkey = key + skey
+            print(finalkey.ljust(15),":",svalue)
+
+
+
+#######################################
+
+
+
+
+####### simple if
+lang = input("Enter any language :")
+if lang in "python programming":
+    print("you are leanring python")
+
+######## if-else
+lang = input("Enter any language :")
+
+if lang  == "python":
+    print("you are leanring python")
+else:
+    print("you are learning java")
+
+
+####### if-elif-elif-else
+lang = input("Enter any language :")
+if lang in "python programming":
+    print("you are leanring python")
+elif lang in "java programming":
+    print("you are learning java")
+elif lang in "unix shell scripting":
+    print("you are learning unix")
+else:
+    print("you are learning gen ai")
+
+
+
+
+
+
+############## builtin functions
+
+print("this is print()")
+
+alist = [10,20,30]
+print(len(alist))
+name = "python"
+print(len(name))
+book = {"chap1":10 ,"chap2":20}
+print(len(book))
+print(sum(alist))
+print(max(alist))
+print(min(alist))
+
+name = input("Enter any string:")
+print(name)
+
+val = 10
+print(id(val))
+alist = [10,20,30]
+print(id(alist))
+
+print(str(val))
+print(float(val))
+print(oct(val))
+print(hex(val))
+print(help(print))
+
+
+
+
+
+
+
+
+
+
+## regular way # traditional way
+fobj = open("customers.txt","w")
+fobj.write("tcs\n")
+fobj.write("cts\n")
+
+fobj.writelines(["infy\t","oracle\t","microsoft\n"])
+for val in range(1,10):
+    fobj.write( str(val )+ "\n")
+fobj.close()
+
+# pythonic way # modern way
+# context manger
+# if any line begins using with keyword .. it is called as context manager
+# Advantage: file gets closed automatically when it comes out of indentation
+with open("customers.txt","w") as fobj:
+    fobj.write("tcs\n")
+    fobj.write("cts\n")
+    print(fobj.closed) # file is not closed hence False
+print(fobj.closed) # True 
+
+
+
+
+#### file read operation ###########
+
+
+# method1 - reading the file line by line
+with open("languages.txt","r") as fobj:
+    for line in fobj:
+        print(line.strip())
+
+# method2 - reading using fobj.readlines()  returns list
+with open("languages.txt","r") as fobj:
+    print(fobj.readlines())
+
+# method3 - using fobj.read()  returns single string
+# not suggested on larger files
+with open("languages.txt","r") as fobj:
+    print(fobj.read())
+
+# method4 - using csv library  - Advantage: each line will be converted to list
+import csv 
+with open("languages.txt","r") as fobj:
+    reader = csv.reader(fobj)
+    for line in reader:
+        print(line)
+
+# method5 - using pandas library
+# pip install pandas
+import pandas as pd
+df = pd.read_csv("languages.txt", header=None)
+print(df.head(2))
+
+
+
+
+
+
+
+
+
+
+
+try:
+    with open("languages111111111111.txt","r") as fobj:
+        for line in fobj:
+            print(line.strip())
+except Exception as err:
+    print(err)
+    print("file not found")
+
+
+try:
+    with open("languages111111111111.txt","r") as fobj:
+        for line in fobj:
+            print(line.strip())
+except ValueError as err:
+    print(err)
+except TypeError as err:
+    print(err)
+except (IndexError,KeyError) as err:
+    print(err)
+except Exception as err:
+    print(err)
+    ============
+    
+
+    
+    
+    
+    
+
+
+
+# fixed arguments
+def display(a,b):
+    print(a,b)
+display(10,20)
+
+# default arguments
+def display(a =0,b = 0,c= 0):
+    print(a,b,c)
+
+display()
+display(10)
+display(10,20)
+display(10,20,30)
+
+## keyword arguments
+def display(c,a,b):
+    print(a,b,c)
+display(b=20,c=30,a=10)
+
+# variable length arguments
+def display(*args):
+    #print(args)
+    for val in args:
+        print(val)
+display(10,20,30,40,50,60,70,80,90,100)
+    
+    
+    
+    
+    
+    
+    
+############3 lambda functions ####
+
+# Every OS contains processes
+# EVery process contains system calls.
+# 10 system calls
+
+# regular way # traditional way
+def display(a,b):
+    c = a + b
+    return c
+output = display(10,20)
+print(output)
+
+
+# pythonic way
+#lambda function : lambda is the replacement of single liner function
+# Advantage: there wont be any jumps(system calls) internally
+#functioname = lambda variables:expression
+
+display = lambda a,b : a + b
+output = display(10,20)
+print(output)
+
+
+display = lambda *data : sum(data)
+output = display(10,20,30,40,50,60,60,70)
+print(output)
+
+
+
+
+
+
+
+# 1. Add two numbers
+add = lambda a, b: a + b
+print(add(3, 5))  # 8
+
+# 2. Square of a number
+square = lambda x: x ** 2
+print(square(4))  # 16
+
+# 3. Length of a string
+length = lambda s: len(s)
+print(length("python"))  # 6
+
+
+# 4. Multiply three numbers
+mul = lambda a, b, c: a * b * c
+print(mul(2, 3, 4))  # 24
+
+
+# 5. Convert to uppercase
+upper = lambda s: s.upper()
+print(upper("hello"))  # HELLO
+
+
+# 6. Reverse string
+reverse = lambda s: s[::-1]
+print(reverse("lambda"))  # adbmal
+
+
+
+
+
+
+# 1. Max of two numbers
+maximum = lambda a, b: a if a > b else b
+print(maximum(10, 20))  # 20
+
+
+
+
+# 2. Pass or Fail
+result = lambda marks: "Pass" if marks >= 35 else "Fail"
+print(result(30))  # Fail
+
+
+
+
+# 3. Even or Odd
+even_odd = lambda x: "Even" if x % 2 == 0 else "Odd"
+print(even_odd(9))  # Odd
+
+
+
+# 4. Positive, Negative or Zero
+sign = lambda x: "Positive" if x > 0 else "Negative" if x < 0 else "Zero"
+print(sign(-5))  # Negative
+
+
+
+
+# 5. Grade categorization
+grade = lambda m: 'A' if m >= 90 else 'B' if m >= 75 else 'C'
+print(grade(80))  # B
+
+
+# 6. Adult or Minor
+age_check = lambda age: "Adult" if age >= 18 else "Minor"
+print(age_check(17))  # Minor
+
+# 7. Number is multiple of 3
+multiple_of_3 = lambda x: "Yes" if x % 3 == 0 else "No"
+print(multiple_of_3(9))  # Yes
+
+# 8. Leap year check
+leap_year = lambda y: "Leap" if (y % 4 == 0 and y % 100 != 0) or (y % 400 == 0) else "Not Leap"
+print(leap_year(2020))  # Leap
+
+# 9. Compare lengths
+compare_len = lambda a, b: "Equal" if len(a) == len(b) else "Not Equal"
+print(compare_len("hi", "by"))  # Equal
+
+# 10. Password strength
+password_check = lambda pwd: "Strong" if len(pwd) >= 8 else "Weak"
+print(password_check("pass123"))  # Weak
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+alist = [10,20,30,40,50]
+#output: [15,25,35,45,55]
+blist = []
+for val in alist:
+    blist.append( val + 5)
+print(blist)
+
+
+
+
+alist = [10,20,30,40,50]
+
+# map(function,iterable)
+increment = lambda x : x + 5
+print(list(map(increment, alist)))
+
+
+print(dir(__builtins__))
+
+
+#Convert to strings
+nums = [1, 2, 3, 4, 5]
+to_str = list(map(lambda x: str(x), nums))
+print(to_str)  # ['1', '2', '3', '4', '5']
+
+
+#Convert floats to ints
+floats = [2.5, 3.6, 4.1]
+ints = list(map(lambda x: int(x), floats))
+print(ints)  # [2, 3, 4]
+
+
+
+#Uppercase names
+names = ["alice", "bob", "carol"]
+upper_names = list(map(lambda x: x.upper(), names))
+print(upper_names)  # ['ALICE', 'BOB', 'CAROL']
+
+
+
+#Extract domain from email
+emails = ["user1@gmail.com", "user2@yahoo.com"]
+domains = list(map(lambda x: x.split("@")[1], emails))
+print(domains)
+
+
+names = ["Alice", "Bob"]
+greeted = list(map(lambda x: "Mr./Ms. " + x, names))
+print(greeted)
+
+
+
+
+
+
+
+
+################################### frequently used builtin libraries #############################
+
+os         : os level activities
+math       : mathematical operations
+sys        :  sys and python config data
+shutil     : copy,move, rmtree  etc
+urllib     : read the web, downloading the files
+logging    : logging all the events
+smtplib    : sending the mails
+ftplib     : performing ftp operations
+sysconfig  :  sys and python config data
+zipfile    : create/extract the zip files
+rarfile    : create/extract the rar files
+cryptopgraphy : encrypting and decrypting the data or files
+tarfile    : create/extract the tar files
+filecmp    : comparing files or directories
+sqlite3    : python default database
+csv        : reading/writing csv files
+xml        : reading/writing xml files
+calendar   : display month,year calendar info
+datetime   : working with date n time
+time       : working with date n time
+fractions  : working with decimal values
+glob       : display all the files
+heapq      : more of array operations ( getting largest among list )
+subprocess : executing system commands in python (  subprocess.getoutput("ls -ltr")
+pdb        : python debugger
+platform   : platform information
+random     : random operations ( shuffling , random digit ... )
+re         : grep + awk + sed
+socket     : networking programming
+stat       : stats of the file
+statistics : basic statistics
+pathlib	   : Object-oriented file path operations
+time	     : Delays, timestamps, performance checks
+logging	   : Logging for scripts/apps (replace print for real apps)
+argparse	 : Command-line interface (CLI) argument parsing
+configparser : 	Read/write .ini config files
+json	     :Serialize/deserialize JSON (common in APIs)
+uuid	     : Generate unique IDs (useful in files, databases)
+statistics	:Basic stats: mean, median, stdev
+random	    :Random number generation, sampling
+collections	:Specialized containers (defaultdict, Counter, namedtuple)
+traceback	   :Print/format exception tracebacks
+warnings	   :Raise and handle warnings
+
+
+
+
+
+
+
+import shutil 
+import os 
+import psutil 
+import datetime 
+print(datetime.datetime.now())
+import time 
+print(time.ctime())
+import calendar
+print(calendar.calendar(2025))
+print(calendar.month(2025,11))
+import platform
+print(platform.node())
+import random 
+print(random.random())
+print(random.randrange(1000,9999))
+import requests 
+response = requests.get("https://www.google.com/")
+print(response.text)
+
+
+
+
+
+
+
+
+
+https://dev.mysql.com/get/Downloads/MySQLInstaller/mysql-installer-community-8.0.44.0.msi
+
+
+
+
+
+
+
+
+password:
+rps@123
+
+
+
+
+
+
+
+display all existing databases 
+------------------------------
+show databases ;
+
+create database 
+----------------
+create database empdb ;
+
+access your database 
+--------------------
+use empdb;
+
+
+
+create table 
+------------
+create table employee( workclass varchar(100), education varchar(100));
+
+insert records
+---------------
+insert into employee values('private','mtech');
+insert into employee values('public','phd');
+
+display all records 
+---------------------
+select * from employee;
+
+
+
+
+
+
+
+#pip install pymysql
+import pymysql
+
+try:
+    #step1
+    conn = pymysql.connect(host= "localhost",port=3306, user = 'root', password='rps@123')
+    print(conn)
+    if conn:
+        print("connection established")
+        #step2
+        cursor = conn.cursor()  # for the navigation
+        query = "select * from empdb.employee"
+        #step3
+        cursor.execute(query)
+        #step4
+        for record in cursor.fetchall():
+            print(record)
+        #step5
+        conn.close()
+except Exception as err:
+    print(err)
+    
+    
+    
+    
+    
+https://github.com/giridhar276/fidelity1/blob/main/empinfo.csv
+
+
+
+
+
+
+
+
+
+
+#pip install pymysql
+import pymysql
+import csv
+import os
+try:
+    #step1
+    rowcount = 0
+    conn = pymysql.connect(host= "localhost",port=3306, user = 'root', password='rps@123')
+    print(conn)
+    if conn:
+        print("connection established")
+        #step2
+        cursor = conn.cursor()  # for the navigation
+        filename = "empinfo.csv"
+        if os.path.isfile(filename):
+            with open(filename) as fobj:
+                reader = csv.reader(fobj)
+                for line in reader:
+                    workclass = line[1]
+                    education = line[3]
+                    query = "insert into empdb.employee values('{}','{}')".format(workclass,education)
+                    cursor.execute(query)
+                    rowcount = rowcount + 1
+                conn.commit()
+                print(rowcount,"records inserted")
+        else:
+            print(filename,"not found")
+        conn.close()
+except Exception as err:
+    print(err)
+
+
+
+
+
+
+
+string = "I love {} and {}"
+print(string.format("Bangalore","Hyderabad"))
+print(string.format("python","java"))
+
+string = "insert into empdb.employee values('{}','{}')"
+print(string.format("public","Btech"))
+
+
+
+
+
+
+
+
+
+
+################
+
+
+
+
+# pip install selenium
+import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+URL = "https://demoqa.com/automation-practice-form"
+
+driver = webdriver.Chrome()
+wait = WebDriverWait(driver, 15)
+
+try:
+    driver.get(URL)
+    driver.maximize_window()
+
+    # Fill text fields
+    wait.until(EC.element_to_be_clickable((By.ID, "firstName"))).send_keys("Giridhar")
+    time.sleep(5)
+    driver.find_element(By.ID, "lastName").send_keys("Sripathi")
+    time.sleep(5)
+    driver.find_element(By.ID, "userEmail").send_keys("giridhar@example.com")
+
+    # Gender radio (input is hidden; click the label)
+    wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "label[for='gender-radio-1']"))).click()  # Male
+    # gender radio ids exist like gender-radio-1 :contentReference[oaicite:1]{index=1}
+    time.sleep(5)
+    # Mobile number
+    driver.find_element(By.ID, "userNumber").send_keys("9876543210")
+    time.sleep(5)
+
+    # Submit
+    submit_btn = wait.until(EC.element_to_be_clickable((By.ID, "submit")))
+    driver.execute_script("arguments[0].click();", submit_btn)
+
+    # Verify success modal
+    wait.until(EC.visibility_of_element_located((By.ID, "example-modal-sizes-title-lg")))
+    print("Form submitted successfully!")
+
+finally:
+    driver.quit()
+
+
+
+
+
+
+
