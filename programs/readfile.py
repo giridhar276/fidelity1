@@ -20,8 +20,18 @@ with open("languages.txt","r") as fobj:
     for line in reader:
         print(line)
 
+
+import json 
+with open("languages.json","r") as fobj:
+    data = json.load(fobj)
+
+
+
+
+
 # method5 - using pandas library
 # pip install pandas
 import pandas as pd
+
 df = pd.read_csv("languages.txt", header=None)
 print(df.head(2))

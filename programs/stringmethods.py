@@ -91,3 +91,12 @@ if 1 < 2 :
     print("still inside if")
 else:
     print("false")
+
+
+
+string = "I love {} and {}"
+print(string.format("Bangalore","Hyderabad"))
+print(string.format("python","java"))
+
+string = "insert into empdb.employee values('{}','{}')"
+print(string.format("public","Btech"))

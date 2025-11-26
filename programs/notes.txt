@@ -255,7 +255,7 @@ opening the file
 ----------------
 
 syntax:  object = open(filename, mode )
-example:   fobj = open("customers.txt","r")
+example:   fobj = open("customers.txt")
            case1: file should exist to read the file 
 
            fobj = open("customers.txt","w")
@@ -392,7 +392,7 @@ Library | module | package
 There are 2 types of libraries :
 
 1. builtin libraries  :  python is installed with set of builtin libraries which are generally used.
-----------------------
+---------------------- ( 3000+)
 
 2. third party libraries  : Depending on the requirement developer has to install the third party library 
                             from www.pypi.org using pip tool
@@ -472,3 +472,62 @@ psutil
 copy a file from one folder to another folder :
 shutil ( shell utilities )
 
+
+
+display all existing databases 
+------------------------------
+show databases ;
+
+create database 
+----------------
+create database empdb ;
+
+access your database 
+--------------------
+use empdb;
+
+
+
+create table 
+------------
+create table employee( workclass varchar(100), education varchar(100));
+
+insert records
+---------------
+insert into employee values('private','mtech');
+insert into employee values('public','phd');
+
+display all records 
+---------------------
+select * from employee;
+
+
+
+step1: open connection 
+step2: define query 
+step3: execute query 
+step4: fetch the output 
+step5: close connection
+
+
+
+
+
+database    library
+------------------
+oracle       cx_Oracle
+Mysql        pymysql 
+Sql server   pymssql 
+MongoDB      pymongo 
+DB2          db2 
+
+
+
+
+
+
+python extensions
+---------------
+abc.py     ( regular python programs, automations )
+abc.ipynb  ( analytics , data science projects )( interactive python notebook)
+notebooks or jupyter notebook

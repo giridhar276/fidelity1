@@ -147,7 +147,7 @@ alist = [10,20,30,40,50]
 # map(function,iterable)
 increment = lambda x : x + 5
 print(list(map(increment, alist)))
-
+# [15,25,35,45,55]
 
 print(list(map(lambda x : x + 5, alist)))
 

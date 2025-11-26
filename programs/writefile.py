@@ -8,6 +8,7 @@ for val in range(1,10):
     fobj.write( str(val )+ "\n")
 fobj.close()
 
+
 # pythonic way # modern way
 # context manger
 # if any line begins using with keyword .. it is called as context manager
